@@ -2,7 +2,7 @@
 
 ## Description
 * Plugins to manage new types of device in Domoticz
-  * jcdecaux-bikes: JCDecaux Bike sharing systems)
+  * jcdecaux-bikes: JCDecaux Bike sharing systems
 	* Works for all JCDecaux systems
 	  * France: Velib, Le vélo, Vélo'V, Velam, VéloCité, Velo2, Cristolib, vélOstan'lib, Bicloo, cy-clic, Vélô
 	  * Spain: Tusbic, SEVICI, Valenbisi
