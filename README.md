@@ -19,7 +19,7 @@
 	  * etc.
     * Show how many available bikes and bike stands for a station
 	* After a parameter update, delete the device. A new one will come up.
-  * Arlo (Wireless security cameras)
+  * Arlo (Wireless security cameras) -- in development
     * Manage Arlo modes (armed, disarmed, schedule, custom)
 	* Get battery level
 
@@ -27,12 +27,9 @@
 ## Installation 
 * Requires Domoticz v3.8153 or newer
 * Requires Python 3
-  * sudo apt-get install -y python3
-  * sudo apt-get install -y python3-dev
+  * sudo apt-get install -y python3 python3-dev python3-pip
 * Requires pyarlo python library (with pip)
-  * wget -O /tmp/get-pip.py https://bootstrap.pypa.io/get-pip.py
-  * python /tmp/get-pip.py
-  * sudo pip install pyarlo
+  * sudo pip3 install pyarlo
 * Install a Plugin
   * mkdir -p /home/pi/domoticz/plugins/<plugin_name>
   * wget -O /home/pi/domoticz/plugins/<plugin_name>/plugin.py https://raw.githubusercontent.com/tcellerier/domoticz-plugins/master/<plugin_name>/plugin.py
